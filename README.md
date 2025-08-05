@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+# 🧪 Teko Frontend Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Đây là bài kiểm tra kỹ năng Frontend dành cho ứng viên tại **Teko Vietnam**, được xây dựng bằng **TypeScript**, **HTML5**, và **CSS3**. Mục tiêu là đánh giá khả năng xây dựng giao diện người dùng, áp dụng tư duy component hóa, tối ưu hiệu năng và viết mã có cấu trúc rõ ràng, dễ bảo trì.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Mục Tiêu Bài Test
 
-### `npm start`
+- Sử dụng **TypeScript** thay vì JavaScript
+- Áp dụng kiến thức HTML/CSS/DOM API thuần
+- Tách cấu trúc dự án rõ ràng
+- Logic xử lý nghiệp vụ rõ ràng, tối ưu
+- Không sử dụng framework UI (React, Vue...) để kiểm tra năng lực core web
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+| Category           | Stack            |
+|--------------------|------------------|
+| 💻 Ngôn ngữ chính   | TypeScript       |
+| 🎨 Giao diện        | HTML5, CSS3      |
+| ⚙️ Build Tool       | Không sử dụng framework, dùng script thuần |
+| 🧪 Testing          | Manual testing (bằng trình duyệt) |
+| 📁 Module           | Tách component dạng hàm / module đơn giản |
+| 📱 Responsive       | Có (dựa trên CSS media queries nếu yêu cầu) |
+## 🚀 Cách Chạy Dự Án
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> **Yêu cầu**: Cài đặt Node.js nếu dùng TypeScript compiler (`tsc`)
 
-### `npm run build`
+### 1. Clone dự án
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/Wiken2k3/Teko_FrontEndTest.git
+cd Teko_FrontEndTest
